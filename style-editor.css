@@ -1,0 +1,14 @@
+/**
+* Styles specific for editor
+*/
+@import url( 'style.css' );
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700);
+
+.content {
+float: none;
+}
+ol,
+ul {
+	margin-left: 40px;
+	margin-left: 4rem;
+}
