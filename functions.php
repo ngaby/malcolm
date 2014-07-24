@@ -28,6 +28,7 @@ add_action( 'wp_enqueue_scripts', 'malcolm_enqueue_styles' );
 function malcolm_enqueue_styles() {
 
 	wp_enqueue_style( 'google-font', '//fonts.googleapis.com/css?family=Oswald:400,700|Open+Sans:400,700', array(), CHILD_THEME_VERSION );
+	wp_enqueue_style( 'google-font', '//fonts.googleapis.com/css?family=Raleway:300,400,700|Lato:300,400,700', array(), CHILD_THEME_VERSION );
 	wp_enqueue_style( 'malcolm-dashicons-style', get_stylesheet_uri(), array('dashicons'), '1.0' );
 }
 
